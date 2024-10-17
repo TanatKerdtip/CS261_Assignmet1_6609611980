@@ -27,7 +27,7 @@ function submitLogin() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            "Application-Key": "TU18bbfe2d383671b26b42e604126ea4e2d0404a5e07f4250751ea4f3454c854184847e14ac8099c336ff47391e956d147", 
+            "Application-Key": "", 
         },
         body: JSON.stringify(requestBody)
     })
